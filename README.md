@@ -4,7 +4,6 @@ helm create hello-helm-config
 image:
   repository: hello-helm
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 ###  /templates/deployment.yaml set the appropriate port:
  ports:
