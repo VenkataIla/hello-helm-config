@@ -16,8 +16,6 @@ image:
  helm list -a
  ### gradle build 
  gradle k8s:resource k8s:helm -Pkubernetes
- ### get service 
- minikube service hello-helm
- 
+
  
  
